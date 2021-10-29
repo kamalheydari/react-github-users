@@ -7,6 +7,8 @@ you can search username and get information of user and see the important inform
 See demo on github pages
 [github search user](https://kamalheydari.github.io/react-github-users/)
 
+![color palette](demo.png)
+
 ## Clone
 
 ```
@@ -20,6 +22,6 @@ https://github.com/kamalheydari/react-github-users.git
 - node-sass
 - react-icons
 
-## color palette
+## Color palette
 
-![alt text](git-s-u.png)
+![color palette](git-s-u.png)
