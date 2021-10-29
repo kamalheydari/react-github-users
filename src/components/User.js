@@ -1,9 +1,13 @@
 import React from "react";
+//? Context
+import { useGithubContext } from "../context/context";
+//? img
 import personImg from "../assets/person.png";
+//? Styles
 import "../styles/user.scss";
+//? Icons
 import { MdBusiness, MdLocationOn, MdLink } from "react-icons/md";
 import { IoLogoTwitter } from "react-icons/io";
-import { useGithubContext } from "../context/context";
 
 const User = () => {
   const { githubUser } = useGithubContext();

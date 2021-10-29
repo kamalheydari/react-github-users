@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+//? Contex
 import { useGithubContext } from "../context/context";
+//? Styles
 import "../styles/search.scss";
 
 const Search = () => {
@@ -31,7 +33,7 @@ const Search = () => {
           </button>
         )}
       </form>
-      <p className='header__error' >{error.show && error.msg}</p>
+      <p className="header__error">{error.show && error.msg}</p>
     </header>
   );
 };

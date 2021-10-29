@@ -1,8 +1,10 @@
 import React from "react";
+//? Contex
 import { useGithubContext } from "../context/context";
-
+//? Icons
 import { GoRepo, GoGist } from "react-icons/go";
 import { FiUsers, FiUserPlus } from "react-icons/fi";
+//? Styles
 import "../styles/info.scss";
 
 const Info = () => {

@@ -1,8 +1,13 @@
 import React from "react";
+//? Contex
 import { useGithubContext } from "../context/context";
+//? Components
 import { Pie, Column, Bar, Doughnut } from "./Charts";
+//? Styles
 import "../styles/repos.scss";
+//? Utils
 import { chartData } from "../utils/helpers";
+
 const Repos = () => {
   const { repos } = useGithubContext();
   const { mostUsedLanguages, mostPopularLanguage, stars, forks } =
