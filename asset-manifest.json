@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-github-users/static/css/main.03e84d0c.chunk.css",
+    "main.css": "/react-github-users/static/css/main.9e1d14ae.chunk.css",
     "main.js": "/react-github-users/static/js/main.fcca4cdf.chunk.js",
     "main.js.map": "/react-github-users/static/js/main.fcca4cdf.chunk.js.map",
     "runtime-main.js": "/react-github-users/static/js/runtime-main.cc994b05.js",
     "runtime-main.js.map": "/react-github-users/static/js/runtime-main.cc994b05.js.map",
-    "static/js/2.db8c7841.chunk.js": "/react-github-users/static/js/2.db8c7841.chunk.js",
-    "static/js/2.db8c7841.chunk.js.map": "/react-github-users/static/js/2.db8c7841.chunk.js.map",
+    "static/js/2.d2f847dc.chunk.js": "/react-github-users/static/js/2.d2f847dc.chunk.js",
+    "static/js/2.d2f847dc.chunk.js.map": "/react-github-users/static/js/2.d2f847dc.chunk.js.map",
     "index.html": "/react-github-users/index.html",
-    "precache-manifest.b9ead4069e311a3c6aae08813750017b.js": "/react-github-users/precache-manifest.b9ead4069e311a3c6aae08813750017b.js",
+    "precache-manifest.c598374004e67223e72860b899c32ded.js": "/react-github-users/precache-manifest.c598374004e67223e72860b899c32ded.js",
     "service-worker.js": "/react-github-users/service-worker.js",
-    "static/css/main.03e84d0c.chunk.css.map": "/react-github-users/static/css/main.03e84d0c.chunk.css.map",
-    "static/js/2.db8c7841.chunk.js.LICENSE.txt": "/react-github-users/static/js/2.db8c7841.chunk.js.LICENSE.txt",
+    "static/css/main.9e1d14ae.chunk.css.map": "/react-github-users/static/css/main.9e1d14ae.chunk.css.map",
+    "static/js/2.d2f847dc.chunk.js.LICENSE.txt": "/react-github-users/static/js/2.d2f847dc.chunk.js.LICENSE.txt",
     "static/media/git3.mp4": "/react-github-users/static/media/git3.e5aa8fdf.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.cc994b05.js",
-    "static/js/2.db8c7841.chunk.js",
-    "static/css/main.03e84d0c.chunk.css",
+    "static/js/2.d2f847dc.chunk.js",
+    "static/css/main.9e1d14ae.chunk.css",
     "static/js/main.fcca4cdf.chunk.js"
   ]
 }
