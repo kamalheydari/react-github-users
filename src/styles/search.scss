@@ -1,0 +1,45 @@
+@import "./properties";
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem 0;
+
+  &__error {
+    color: crimson;
+    margin-bottom: 0.5rem;
+  }
+}
+.form {
+  background-color: $secondery-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0.2rem;
+
+  @extend %border;
+
+  &__input::placeholder {
+    color: $text-color2;
+  }
+  &__btn {
+    color: $text-color2;
+    padding: 0.5rem;
+    background: $primary-color;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: color 0.2s;
+    &:hover {
+      color: $text-color1;
+    }
+  }
+  &__input {
+    padding: 0.5rem;
+    color: $text-color1;
+    font-size: 1.3rem;
+    width: 75%;
+  }
+}

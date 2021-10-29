@@ -1,0 +1,54 @@
+@import "./properties";
+.info-section{
+  @include responsive(md) {
+    grid-column: 3/4;
+  }
+}
+.item__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.item {
+  // position: relative;
+  width: max-content;
+  padding: 1rem;
+  border: 0.15rem solid $green-color;
+
+  background: $secondery-color;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.item__icon {
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  display: inline-block;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item__value {
+  color: $green-color;
+}
+.item__label {
+  color: $text-color1;
+}
+.pink {
+  background: #ffe0f0;
+  color: #da4a91;
+}
+.green {
+  background: #e0fcff;
+  color: #2caeba;
+}
+.purple {
+  background: #e6e6ff;
+  color: #5d55fa;
+}
+.yellow {
+  background: #fffbea;
+  color: #f0b429;
+}

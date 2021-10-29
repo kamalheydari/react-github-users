@@ -1,0 +1,33 @@
+@import "./properties";
+
+.section-repos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  @include responsive(md) {
+    grid-column: 1/4;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  svg {
+    width: 100% !important;
+  }
+}
+.chart-container {
+  background-color: #ffffff0d;
+  opacity: 0.8;
+  width: 100%;
+}
+@include responsive(md) {
+  .chart-container:nth-child(1) {
+    grid-column: 1/4;
+  }
+  .chart-container:nth-child(2) {
+    grid-column: 5/8;
+  }
+  .chart-container:nth-child(3) {
+    grid-column: 1/4;
+  }
+  .chart-container:nth-child(4) {
+    grid-column: 5/8;
+  }
+}
