@@ -1,6 +1,6 @@
 # Github Search User
 
-you can search username and get information of user and see the important information in the charts
+you can search username and get information of user and see the important languages, repos, forks and stars in the charts
 
 ## Demo
 
