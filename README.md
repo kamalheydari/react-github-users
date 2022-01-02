@@ -7,13 +7,7 @@ you can search username and get information of user and see the important langua
 See demo on github pages
 [github search user](https://kamalheydari.github.io/react-github-users/)
 
-![color palette](demo.png)
-
-## Clone
-
-```
-https://github.com/kamalheydari/react-github-users.git
-```
+![demo](demo.png)
 
 ## Using
 
@@ -21,7 +15,3 @@ https://github.com/kamalheydari/react-github-users.git
 - fusioncharts
 - node-sass
 - react-icons
-
-## Color palette
-
-![color palette](git-s-u.png)
