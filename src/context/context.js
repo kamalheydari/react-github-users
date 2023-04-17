@@ -59,7 +59,7 @@ export const GithubProvider = ({ children }) => {
   }, []);
 
   useEffect(() => {
-    searchGithubUser("wesbos");
+    searchGithubUser("kamalheydari")
   }, []);
   return (
     <GithubContext.Provider
